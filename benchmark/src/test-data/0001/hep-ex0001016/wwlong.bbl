@@ -1,0 +1,116 @@
+\begin{mcbibliography}{10}
+
+\bibitem{wwl31}
+L3 Collab., M. Acciarri \etal,
+\newblock  Phys. Lett. {\bf B454}  (1999) 386\relax
+\relax
+\bibitem{wwl32}
+L3 Collab., M. Acciarri \etal,
+\newblock  Phys. Lett. {\bf B436}  (1998) 437\relax
+\relax
+\bibitem{wwaleph1}
+ALEPH Collab., R. Barate \etal,
+\newblock  Phys. Lett. {\bf B453}  (1999) 121\relax
+\relax
+\bibitem{wwaleph2}
+ALEPH Collab., R. Barate \etal,
+\newblock  Phys. Lett. {\bf B453}  (1999) 107\relax
+\relax
+\bibitem{wwdelphi1}
+DELPHI Collab., P. Abreu \etal,
+\newblock  Phys. Lett. {\bf B459}  (1999) 382\relax
+\relax
+\bibitem{wwdelphi2}
+DELPHI Collab., P. Abreu \etal,
+\newblock  Phys. Lett. {\bf B456}  (1999) 310\relax
+\relax
+\bibitem{wwopal1}
+OPAL Collab., G. Abbiendi \etal,
+\newblock  Phys. Lett. {\bf B453}  (1999) 138\relax
+\relax
+\bibitem{wwopal2}
+OPAL Collab., K. Ackerstaff \etal,
+\newblock  Eur. Phys. J. {\bf C2}  (1998) 597\relax
+\relax
+\bibitem{wwopal3}
+OPAL Collab., G. Abbiendi \etal,
+\newblock  Eur. Phys. J. {\bf C8}  (1999) 191\relax
+\relax
+\bibitem{standard_model}
+S.L. Glashow, \NP {\bf 22} (1961) 579;\\ S. Weinberg, \PRL {\bf 19} (1967)
+  1264;\\ A. Salam, ``Elementary Particle Theory'', Ed. N. Svartholm,
+  Stockholm, ``Alm\-quist and Wiksell'' (1968), 367\relax
+\relax
+\bibitem{Veltman:1968ki}
+M. Veltman,
+\newblock  Nucl. Phys. {\bf B7}  (1968) 637\relax
+\relax
+\bibitem{'tHooft:1971rn}
+G. 't Hooft,
+\newblock  Nucl. Phys. {\bf B35}  (1971) 167\relax
+\relax
+\bibitem{'tHooft:1972fi}
+G. 't Hooft and M. Veltman,
+\newblock  Nucl. Phys. {\bf B44}  (1972) 189\relax
+\relax
+\bibitem{'tHooft:1972ue}
+G. 't Hooft and M. Veltman,
+\newblock  Nucl. Phys. {\bf B50}  (1972) 318\relax
+\relax
+\bibitem{CDF_Wlong}
+CDF Collab., T. Affolder \etal,
+\newblock  ``Measurement of the Helicity of W Bosons in Top Quark Decays'',
+\newblock  Preprint FERMILAB PUB-99/257-E, FERMILAB, 1999,
+\newblock  submitted to Phys. Rev. Lett\relax
+\relax
+\bibitem{Hagiwara87}
+K. Hagiwara, K. Hikasa, R. D. Peccei and D. Zeppenfeld,
+\newblock  Nucl. Phys. {\bf B282}  (1987) 253\relax
+\relax
+\bibitem{l3_00}
+L3 Collab., B.~Adeva \etal,
+\newblock  Nucl. Inst. Meth. {\bf A 289}  (1990) 35\relax
+\relax
+\bibitem{l3_55}
+L3 Collab., O.~Adriani \etal,
+\newblock  Physics Reports {\bf 236}  (1993) 1\relax
+\relax
+\bibitem{l3lumi}
+I.~C.~Brock \etal,
+\newblock  Nucl. Instr. and Meth. {\bf A 381}  (1996) 236\relax
+\relax
+\bibitem{l3alr}
+M.~Chemarin \etal,
+\newblock  Nucl. Inst. Meth. {\bf A 349}  (1994) 345\relax
+\relax
+\bibitem{l3smd}
+M.~Acciarri \etal,
+\newblock  Nucl. Inst. Meth. {\bf A 351}  (1994) 300\relax
+\relax
+\bibitem{l3fb}
+A.~Adam \etal,
+\newblock  Nucl. Inst. Meth. {\bf A 383}  (1996) 342\relax
+\relax
+\bibitem{l3egap}
+G.~Basti \etal,
+\newblock  Nucl. Inst. Meth. {\bf A 374}  (1996) 293\relax
+\relax
+\bibitem{KORALW1}
+M. Skrzypek, S. Jadach, W. Placzek and Z. W\c{a}s,
+\newblock  Comput. Phys. Commun. {\bf 94}  (1996) 216\relax
+\relax
+\bibitem{KORALW2}
+M. Skrzypek, S. Jadach, M. Martinez, W. Placzek and Z. W\c{a}s,
+\newblock  Phys. Lett. {\bf B372}  (1996) 289\relax
+\relax
+\bibitem{EEWW}
+J. Fleischer, F. Jegerlehner, K. Kolodziej and G. J. van Oldenborgh,
+\newblock  Comput. Phys. Commun. {\bf 85}  (1995) 29\relax
+\relax
+\bibitem{xgeant}
+The L3 detector simulation is based on GEANT Version 3.15,\\ R. Brun \etal,
+  {\em GEANT 3}, CERN-DD/EE/84-1 (Revised), 1987; \\ and on the GEISHA program
+  to simulate hadronic interactions, \\ H. Fesefeldt, RWTH Aachen Report PITHA
+  85/2, 1985\relax
+\relax
+\end{mcbibliography}

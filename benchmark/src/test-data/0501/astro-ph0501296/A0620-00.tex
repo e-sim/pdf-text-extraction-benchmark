@@ -1,0 +1,330 @@
+%% *************************************************************************
+%%                                                               cjaa.tex
+%% CJAA Ver. 1.0, LaTeX class for Chinese Journal of Astronomy & Astrophysics
+%% demonstration file
+%%                                      (C) Chin. J. Astron. Astrophys.
+%%                                      revised by Zhou Ai-Ying, 2001.08.28;2003.04.20
+%%
+%% Note: 1. The ChJAA macro class cjaa.cls for LaTeX2e was adapted from
+%%          aa.cls, the A&A's macro class (Ver.5.01). Manuscripts for
+%%          ChJAA can be prepared following this demo file using cjaa.cls.
+%%       2. To include EPS/PS graphics, you may use one of the graphics macro packages:
+%%          graphicx.sty, epsf.sty or psfig.sty, or their mix. Please note the usage
+%%          of \input{*.sty} and \usepackage{*}, they have no difference.
+%%       3. Pay close attention to the format of ChJAA's reference list and
+%%          other requirements. See Instructions for Authors (2001, ChJAA, Vol.1, No.1)
+%%          or visit ChJAA's web pages at http://www.chjaa.org
+%%       4. Final publication layout will be produced with this LaTeX source file.
+%%---------------------------------------------------------------------------------
+%%
+\documentclass[referee]{cjaa}           % referee version: for submission
+%\documentclass{cjaa}                   % preprint, the final version for publication
+                                        %if use preprint, please de-comment \volnopage{} too.
+
+\usepackage{graphicx}                   %for PS/EPS graphics inclusion, new
+\input{epsf.sty}                        %for PS/EPS graphics inclusion, old
+\input{psfig.sty}                       %for PS/EPS graphics inclusion, old
+
+%\baselineskip=6mm                      %%preserved for Editor. DOn't remove!
+
+
+\begin{document}
+
+   \title{A GHz Flare in a Quiescent Black Hole and A Determination of the Mass Accretion Rate
+%\,$^*$
+%\footnotetext{$*$ Supported by the National Natural Science Foundation of China.}
+}
+%   \subtitle{I. Place Your Subtitle Here}
+
+   \volnopage{Vol.0 (200x) No.0, 000--000}      %%preserved for Editor. DOn't remove!
+   \setcounter{page}{1}          %%starting page, preserved for Editor. DOn't remove!
+%   \baselineskip=5mm             %%preserved for Editor. DOn't remove!
+
+   \author{Sabyasachi Pal
+      \inst{1,3}\mailto{}
+%% Please move "\mailto{}" to the corresponding author of the paper.
+%% For single author or all the authors from an institute, use "\inst{}" only
+%% Here is an example of three authors come from different institutes.
+   \and Sandip K. Chakrabarti
+      \inst{1,2}
+      }
+   \offprints{Sabyasachi Pal}                   %% is disabled in fact
+%   \baselineskip=4.642mm   %% preserved for Editor. DOn't remove!
+
+   \institute{Centre for Space Physics, Chalantika 43, Garia Station Road, Kolkata 700084, India\\
+             \email{space\_phys@vsnl.net}
+%% Please give the E-mail address of the author, to whom future correspondence and
+%% offprint requests will be sent. Note to pair \mailto{} with \email{}
+        \and
+             S. N. Bose National Centre for Basic science, Salt Lake, Kolkata, 700098, India\\
+%             \email{chakraba@bose.res.in}
+        \and
+             Jadavpur University, Kolkata 700032, India\\}
+          
+
+   \date{Received~~2004 July 25; accepted~~2004~~month day}
+
+\abstract{If the total energy of a radio flare is known, one can estimate the 
+mass accretion rate of the disk by assuming equipartition of magnetic 
+energy and the gravitational potential energy of accreting matter. We present
+here an example of how such an estimate could be done.
+Our recent radio observation using the Giant Meter Radio Telescope 
+(GMRT) of the galactic black hole transient  A0620-00 at 1.280 GHz 
+revealed a micro-flare of a few milli-Jansky. Assuming a black 
+hole mass of $10 M_\odot$ for the compact object, we find the accretion rate
+to be at the most ${\dot M} = (8.5 \pm 1.4) \times 10^{-11} (\frac{x}{3})^{5/2}
+M_\odot$ yr$^{-1}$, where, $x$ is the distance from the hole in units of
+Schwarzschild radius. This is consistent with the earlier estimate of the accretion
+rate based on optical and X-ray observations. We claim that this procedure
+is general enough to be used for any black hole candidate.
+\keywords{Black hole physics -- accretion, accretion disks -- 
+magnetic fields -- radio continuum: stars -- stars: individual (A0620-00)}}
+
+   \authorrunning{Sabyasachi Pal \& S. K. Chakrabarti}            %author_head in even pages
+   \titlerunning{Accretion rate of A0620-00 in Quiescence}  % title_head in odd pages
+
+   \maketitle
+
+\noindent To be Published in the proceedings of the 5th Microquasar Conference: 
+Chinese Journal of Astronomy and Astrophysics
+
+%% The author head (on even pages) and the title head (on odd pages) will be
+%% automatically extracted from \author{} and \title{}. Whenever the title is too long,
+%% you will be asked to supply a shorter one by inserting either \authorrunning{} or
+%% \titlerunning{} before \maketitle. Anyway, you can specify your own heads in advance.
+%%
+%%
+%% Note: In the following text body of your manuscript, please note several differences from
+%%       other major journals:
+%% (1) \subsection{Please Capitalize the First Letter of Each Notional Word in Subsection Title}
+%% (2) Please Capitalize the First Letter of Each Notional Word in table's caption
+
+%
+%________________________________________________ sections below
+%
+\section{Introduction}           %% first-level sections will be auto-capitalized
+\label{sect:intro}
+%\hspace{15pt}%                   %% preserved for Editor
+
+Our understanding of the accretion processes at low accretion rates suggests that 
+magnetic field may be entangled with hot ions at virial temperatures 
+and could be sheared and amplified to the local equipartition
+value (Rees 1984). If so, dissipation of this field, albeit small, should produce
+micro-flares from time to time, and they could be detectable especially 
+if the object is located nearby. In the case of AGNs and QSOs, the flares are common
+and the energy release could carry information about the accretion rates in those
+systems. We present here an application of this understanding of the accretion process
+in the context of the galactic black hole transient A0620-00 (Pal \& Chakrabarti, 2004).
+
+A0620-00 was discovered in 1975 through
+the Ariel V sky survey (Elvis et al. 1975). It is located at a 
+distance of $D=1.05$ kpc (Shahbaz, Naylor \& Charles1994).
+A0620-00 is in a binary system and its mass is estimated to be 
+around $10M_\odot$ (Gelino, Harrison \& Orosz 2001). A0620-00 is not particularly well
+known for its activity in radio wavelengths.  It was last reported to have
+radio outbursts in 1975 at $962$ and $151$ MHz (Davis et al. 1975; Owen et al. 1976).
+A few years after these observations, Duldig et al. (1979) reported a low level activity at
+$2$ cm ($14.7$ GHz). More recent re-analysis of the $1975$ data revealed that it
+underwent multiple jet ejection events (Kuulkers et al. 1999). There are 
+no other reports of radio observations of this object. The outbursts and quiescence 
+states are thought to be due to some form of thermal-viscous-instability in the accretion 
+disk.  In the quiescent state, the accretion rate becomes very low (e.g. Lasota 2001).
+Assuming that there is a Keplerian disk, from the observations in the optical and the 
+X-ray, the accretion rate was estimated to vary from a few times the Eddington rate in 
+outbursts to less than $ 10^{-11} M_\odot$ yr$^{-1}$ in quiescence 
+(de Kool 1988; McClintock \& Remillard 1986).
+Assuming a low-efficiency flow model, McClintock \& Remillard (2000), obtained 
+the accretion rate to be $\sim 10^{-10} M_\odot$ yr$^{-1}$ using X-ray observations.  
+A0620-00 has been in a quiescent state for quite some time. 
+In the present Paper, we report the observation of a micro-flare in radio wavelength 
+(frequency 1.28 GHz) coming from this object. 
+
+%% ChJAA editors DID NOT use \cite{} for citation, \ref and \label for
+%% cross-references of Table/Figure in publication version.
+%% ChJAA editors prefered you giving a citation as 'Michel et al. 1992', and
+%% writting Table~1 or Fig.~1 and so forth. However, that will make authors
+%% inconvenient in adjusting/adding/removing text, tables or figures. Anyway,
+%% authors can use \cite, \citep and \citet as widely used in other journals.
+%% ChJAA editors are moving to use a more flexible LaTeX source.
+
+\section{Observations and results}
+\label{sect:Obs}
+%\hspace{15pt}%                   %% preserved for Editor
+On Sept. 29th, 2002, during UT 00:45-02:03 we observed A0620-00 with the Giant Meter Radio
+Telescope (GMRT) located in Pune, India. GMRT has $30$ parabolic reflector antennae placed with altazimuth
+mounts each of which is of $45$ meter diameter placed in nearly `Y' shaped array. It has a tracking 
+and pointing accuracy of $1'$ for wind speeds less than $20$ km/s. 
+GMRT is capable of observing at six frequencies from $151$ MHz to $1420$ MHz.
+On the higher side, $608-614$ MHz and $1400-1420$ MHz are protected frequency bands
+by the International Telecommunication Union (ITU).
+During our observation, 28 out of 30 antennae
+were working and the observational conditions were stable. 
+The observed frequency is $\nu_{obs} \sim 1280$ MHz which is far away from the ITU bands.
+The band width is $16$ MHz. There were 128 channels with  
+a channel separation of $125$ kHz.
+We used 3C147 as the flux calibrator and 0521+166 as the phase calibrator.
+No other source was found within the field of view. The primary beam width was 
+$0.5$ degree and the synthesized beam width was $3$ arc second.
+\begin{figure}
+   \begin{center}
+   \mbox{\epsfxsize=0.8\textwidth\epsfysize=0.8\textwidth\epsfbox{SPA0620fig1rot.ps}}
+   \caption{Light curve of A0620-00 without background subtraction on Sep. 29th, 
+2002 as obtained by GMRT radio observation at $1.28$ GHz. Subtracting 
+the background reveals a micro-flare of mean flux $3.84$ mJy of duration $192 \pm 32 s$.}
+   \end{center}
+\end{figure}
+
+Data analysis were carried out using the AIPS package. 
+The data for A06200-00 is band passed and self calibrated.
+The light-curve without the background subtraction is shown in Fig. 1.
+The data is integrated in every $16$ seconds. The background is
+due to two side lobes and is found to be constant in time.
+The UV coverage was very good and the background was found to be constant
+within the field of view with rms noise $8.6 \times 10^{-4}$ Jy as tested by the task IMAGR in AIPS.
+The background subtraction reveals that a micro-flare
+of average flux density $F_\nu=3.84$ mJy occurred and it lasted for
+about $t_{\mu f} = 192 \pm 32$ seconds.
+We found that each of the antennae independently showed this event
+and the synthesized image of the field of view showed no significant signal 
+from any other source. 
+This confirms the presence of this micro-flare very convincingly.
+
+\section{Interpretation of the micro-flaring event}
+\label{sect:disc}
+%\hspace{15pt}%                   %% preserved for Editor
+Fast variabilities occur in time scales of the order of the light
+crossing time $t_l = r_g/c \sim 0.1\frac{M}{10M_\odot}$ ms, ($r_g=2GM/c^2$ is the
+Schwarzschild radius) in the vicinity of a black hole. Shot noise in this time scale is
+observed during X-ray observations. Since the duration $t_{\mu f}$ of the micro-flare
+that we observe is much larger ($t_{\mu f}>>t_l$), hence we rule out 
+the possibility that it is a shot noise type event. 
+                                                                                
+Assuming that the flare is due to magnetic dissipation, with an energy
+density of $B^2/8\pi$, the expression for the total energy release (fluence) is:
+$$
+E_{mag} = \frac{B^2}{8\pi} V = 4 \pi D^2 \nu_{obs} F_\nu t_{\mu f} ,
+\eqno{(1)}
+$$
+where $V \sim r_g^3$ is the lower limit of the volume in the accretion flow that released 
+the energy, $D$ is the distance of the source from us, $\nu_{obs}$ is the frequency at which 
+the observation is made and $F_\nu$ is the specific intensity of radiation. Here, $B$ is the
+average magnetic field in the inflow where the flare forms. Re-writing Eqn. (1) using the 
+equipartition law,
+$$
+\frac{B^2}{8\pi} \sim \frac{GM\rho}{r} =\frac{GM{\dot M}}{4 \pi v r^3} ,
+\eqno{(2)}
+$$
+where $\rho$ is the density of matter in the accretion flow, ${\dot M}$ is 
+the accretion rate and $v$ is the velocity of inflow.
+Since there is no signature of a Keplerian disk in the quiescent 
+state, one may assume the inflow to be generally like a low-angular momentum 
+flow (Chakrabarti, 1990), especially close to the black hole. Estimations of 
+McClintock \& Remillard (2000) was carried out with a low-efficiency radial 
+flow model. Thus, we use the definition of the
+accretion rate to be ${\dot M}=4\pi \rho r^2 v$. More specifically, we assume, 
+the free-fall velocity,  $v \sim (2GM/r)^{1/2}$. Introduction of
+pressure and rotation effects do not change the result since the gas is tenuous, i.e., hot,
+and since the Keplerian flow is absent, i.e., the angular momentum is very low. These
+simple but realistic assumptions allow us to obtain the upper limit of the
+accretion rate of the flow to be,
+$$
+{\dot M} \sim (3.5 \pm 0.58) \times 10^{14} x^{5/2} {\rm \ gm/s}
+= (5.5 \pm 0.91) \times 10^{-12} x^{5/2} M_\odot {\rm yr}^{-1}.
+\eqno{(3)}
+$$
+Here $x=\frac{r}{r_g}$, is the dimensionless distance of the flaring
+region from the center. From the transonic flow
+models (Chakrabarti 1990), the flow is expected to be supersonic only
+around $x_c\sim 2-3$ before disappearing into the black hole. Ideally, in a 
+subsonic flow ($x>x_c$), the chance of flaring is higher as the residence time
+of matter becomes larger, or comparable with the reconnection time scale. 
+For $x<x_c$ there is little possibility of flaring. We thus estimate the
+the accretion rate of A0620-00 in the quiescent state to be
+$$
+{\dot M}  =  (8.5 \pm 1.4) \times 10^{-11} (\frac{x}{3})^{5/2} M_\odot {\rm yr}^{-1}.
+\eqno{(4)}
+$$
+In the case of a low angular momentum flow, there are possibilities of shock formation
+at around $x\sim 10$ (Chakrabarti, 1990). So it is likely that the flare forms 
+in the immediate vicinity of 
+the post-shock (subsonic) region where the density of matter as well as magnetic pressure
+are very high. In any case, the rate we get is consistent with that reported 
+by McClintock \& Remillard (2000) on the basis of X-ray observations.
+It is to be noted that Duldig et al. (1979) found a flux of $44\pm14$ mJy well after the
+outburst in 1975 and concluded that intermittent emissions are possible and that mass transfer
+continues even in quiescence states. Our result also verifies such an assertion. 
+ 
+The procedure we have suggested here is sufficiently general.  For instance, it is 
+generally believed that 
+in the hard state of a black hole, the hot, sub-Keplerian matter plays an important role in
+producing the so-called Compton cloud and this would an ideal location for flaring activities
+if some entangled  magnetic fields are present.
+In case the mass of the black hole and its distance are known, as in the present case, the
+mass accretion rate could be calculated. In case the accretion rate and the distance were
+known then the mass could be estimated by inverting the logical steps given above. One of 
+our assumptions is to estimate the magnetic field by assuming it to be in equipartition
+with the gravitational energy density. In reality, the magnetic field could be less
+than the equipartition value. On the other hand, since we assumed flow to be freely 
+falling, while in presence of angular momentum, the flow would slow down and both 
+the density and the magnetic field energy would be higher. These to opposite effects 
+should make our estimate to be still sufficiently realistic.
+
+\acknowledgements We thank the staffs of the GMRT who have helped us to make this observation
+possible. GMRT is run by the National Centre for Radio Astrophysics of the
+Tata Institute of Fundamental Research. SP thanks a CSIR Fellowship which supported his
+work at the Centre for Space Physics.
+
+\begin{thebibliography}{99}
+%% you can type \apj for ApJ, \aap for A&A, \apss for Ap&SS, etc. Please consult
+%% the macro cjaa.cls. You can also find them in aasguide.tex (AASTeX for ApJ, AJ, PASP)
+%% Please follow the format of ChJAA's reference list
+
+\bibitem[]{}
+Chakrabarti S.K. 1990, Theory of Transonic Astrophysical Flows, (World Scientific:Singapore)
+                                                                                
+\bibitem[]{}
+Davis, R.J., Edwards, M.R., Morison, I., Spencer, R.E., 1975, Nat. 257, 659
+                                                                                
+\bibitem[]{}
+de Kool, M., 1988, ApJ 334 336
+                                                                                
+\bibitem[]{}
+Duldig, M.L. et al., 1979, MNRAS, 187, 567
+                                                                                
+\bibitem[]{}
+Elvis, M., Page, C.G., Pounds, K.A., Ricketts, M.J. and Turner, M.J.L. 1975, Nat. 257, 656
+                                                                                
+\bibitem[]{}
+Gelino, D.M., Harrison, T.E. and Orosz, J.A., 2001, AJ, 122, 2668
+                                                                                
+\bibitem[]{}
+Kuulkers, E., Fender, R.P., Spencer, R.E., Davis, R.J. and Morison, I., 1999, MNRAS 306, 919
+                                                                                
+\bibitem[]{}
+Lasota, J.-P., 2001, New AR, 45, 449
+                                                                                
+\bibitem[]{}
+McClintock, J.E., Petro, L.D., Remillard, R.A., Ricker, G.R., 1983, ApJ 266, L27                                                                                
+\bibitem[]{}
+McClintock, J.E., Remillard, R.A., 1986, ApJ 308, 110
+                                                                                
+\bibitem[]{}
+Owen, F.N., Balonek, T.J., Dickey, J., Terzian, Y., Gottesman, S.T. 1976, ApJ 203, L15
+                                                                                
+\bibitem[]{}
+McClintock, J.E., Remillard, R.A., 2000, ApJ 531, 956
+                                                                                
+\bibitem[]{}
+Pal, S., Chakrabarti, S. K., 2004, A\&A 421, 13P 
+
+\bibitem[]{}
+Rees, M., 1984, ARAA, 22, 471
+                                                                                
+\bibitem[]{}
+Shahbaz, T., Naylor T., Charles, P.A., 1994, MNRAS 268, 756
+                                                                                
+\end{thebibliography}
+
+\label{lastpage}
+
+\end{document}

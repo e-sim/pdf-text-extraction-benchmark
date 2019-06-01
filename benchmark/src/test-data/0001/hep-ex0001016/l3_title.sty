@@ -1,0 +1,79 @@
+%
+%------------------------------------------------------------------------------
+% Sets up the title page for a draft, a CERN preprint or a journal
+% article for the L3 Collaboration.
+% This is adapted from /l3/paper/macros/cern.sty
+% Version 1.0: 26/01/94 Ian C. Brock
+% Version 1.1:  2/04/97 Robert Clare; change l3draft to lthreedraft
+% Version 1.2: 30/01/98 Robert Clare; change PPE to EP (history repeats)
+% Version 1.3: 10/02/99 Robert Clare; added \lthreenote (from M.Gr\"unewald)
+%
+% The author should supply:
+% \title
+% \author{The L3 Collaboration}
+% \journal{Phys. Lett. B}    or wherever is appropriate
+% \lthreedraft{x.y}   OR 
+% \lthreenote{number} OR
+% \preprint{95-???}   OR
+% \journal            OR
+% \journaln                  to avoid all the figures being moved to the end
+%------------------------------------------------------------------------------
+%
+\def\@docversion{Draft}
+\def\@subprepend{To be submitted to}
+\def\@journalname{Phys. Lett. B}
+\def\journalname#1{\def\@journalname{#1}}
+\def\lthreedraft#1{\def\@docversion{Version #1} \usepackage{drafthead}}
+\def\lthreenote#1{\def\@docversion{{\large L3 Note #1}}}
+\def\preprint#1{\def\@docversion{CERN-EP/#1} 
+                \def\@subprepend{Submitted to}}
+\def\journal{\def\@docversion{}             \usepackage{endfig}}
+\def\journaln{\def\@docversion{}}
+%
+% This is the titlepage
+%
+\def\titlepage{\clearpage%
+\setcounter{footnote}{0}\setcounter{page}{1}%
+\thispagestyle{empty}\pagestyle{plain}\pagenumbering{arabic}%
+% CERN title
+\kern1mm\begin{center}
+\mbox{\large EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH}
+\end{center}
+\vskip3mm\normalsize
+\@docnum\\
+\@docdate}% End of \titlepage tag
+%
+% Document number (flushright) - no number for Phys. Lett.
+%
+\def\@docnum#1{\hbox to \hsize{\hskip123mm%
+\ifx\@docversion\@empty\mbox{}%
+\else\hbox{\@docversion}\fi\hss}}
+%
+% Date (flushright) - no date for Phys. Lett.
+%
+\def\@docdate{\hbox to \hsize{\hskip123mm%
+\ifx\@docversion\@empty\mbox{}%
+\else\hbox{\@date}\fi\hss}}
+% Title
+\def\title#1{\vskip 0.8in plus 2in\begin{center}%
+{\Large\bf#1\par}\vskip1.5em\end{center}\vskip 1in}
+% Author
+\def\@makefnmark{\hbox{$^{\@thefnmark)}$}}
+\def\author#1{%% Treat the list of authors
+\setcounter{footnote}{0}\def\@currentlabel{}%
+\begingroup\def\thefootnote{\arabic{footnote}}
+\def\@makefnmark{\hbox{$^{\@thefnmark)}$}}
+\global\@topnum\z@ \large\begin{center}{\lineskip.5em
+\begin{tabular}[t]{c}#1\end{tabular}\par}
+\end{center}\par\vskip1.5em\@thanks\endgroup}
+\newenvironment{Authlist}{\begin{center}}{\end{center}}
+% Abstract
+\def\abstract{\vskip0.8in plus 3in\begin{center}%
+{\large\bf Abstract}\end{center}\quotation}
+\def\endabstract{\endquotation}
+%
+\def\submitted{\vskip 0.8in plus 2in\begin{center}%
+\ifx\@docversion\@empty\mbox{}%
+\else\@subprepend\space {\it \@journalname}\fi\vskip1.5em\end{center}%
+  \vskip 0.5in}
+\def\endtitlepage{\pagebreak}

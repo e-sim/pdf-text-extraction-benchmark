@@ -1,0 +1,41 @@
+%auto-ignore
+
+Changes made to paper:
+
+* Inclusion of figure showing the simple volatile site complexity (as
+used by C. Adami) as a function of speciation time. Altered results
+section to describe this.
+
+* Changed title to reflect the interim nature of this report
+
+* Condensed section decsribing the two methods of searching genotype
+space, as results reported don't use these methods (future ones
+will though). This brings the paper within the 5 page limit.
+
+Comments to referees
+
+Ref 71. Some empirical results added. I'm not sure what the referee
+means by saying this approach is highly biased. I do assume that the
+bulk of neutral variants are connected within a single site mutation
+neutral network, something that does appear to be the case in Tierra
+(although by no means 100% certain). If this were not the case, then I
+could see that this technique would be very biased,
+
+Ref 66. Changed title to hopefully something a little less
+"expectation raising". As to whether mathematical computations, such
+as those performed by Avida, are important or not, my view is that
+they are not, especially wrt to Tierra. We shall have to agree to
+disagree on that one. I would also dispute that my method does not
+discriminate between pairs which differ in ecological interactions,
+as long as the overall fitness and cpu costs are the same. It very
+clearly does, as the technique considers these quantities pair-wise
+between all the players in the ecosystem.
+
+Ref 119. I beg to differ with this referee who claims  coevolution
+will grind to a halt in the absence of information. This seems far
+from obvious to me, and is precisely why I'm interested in studying a
+coevolving system that has some degree of tractibility. It may be that
+a source of information is required in order to see complexity
+increase (this seems plausible). In which case, Tierran evolution is
+perhaps one long plateau of complexity, but churning through novel
+organisms. I await my experimental results.

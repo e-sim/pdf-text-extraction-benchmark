@@ -1,0 +1,320 @@
+\begin{thebibliography}{49}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Minkowski}(1977)}]{seesaw1}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Minkowski}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B67}},
+  \bibinfo{pages}{421} (\bibinfo{year}{1977}).
+
+\bibitem[{\citenamefont{Glashow}(1979)}]{seesaw2}
+\bibinfo{author}{\bibfnamefont{S.~L.} \bibnamefont{Glashow}}, in
+  \emph{\bibinfo{booktitle}{Quarks and leptons, proceedings of the advanced
+  study institute}} (\bibinfo{year}{1979}).
+
+\bibitem[{\citenamefont{Gell-Mann et~al.}(1979)\citenamefont{Gell-Mann, Ramond,
+  and Slansky}}]{seesaw3}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Gell-Mann}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Ramond}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Slansky}}, in
+  \emph{\bibinfo{booktitle}{Supergravity}} (\bibinfo{year}{1979}).
+
+\bibitem[{\citenamefont{Yanagida}(1979)}]{seesaw4}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Yanagida}}, in
+  \emph{\bibinfo{booktitle}{Proc. of the workshop on Unified Theory and Baryon
+  number in the Universe}} (\bibinfo{year}{1979}).
+
+\bibitem[{\citenamefont{Mohapatra and Senjanovic}(1980)}]{seesaw5}
+\bibinfo{author}{\bibfnamefont{R.~N.} \bibnamefont{Mohapatra}}
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Senjanovic}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{44}},
+  \bibinfo{pages}{912} (\bibinfo{year}{1980}).
+
+\bibitem[{\citenamefont{Santamaria}(1993)}]{santamaria}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Santamaria}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B305}},
+  \bibinfo{pages}{90} (\bibinfo{year}{1993}), \eprint{hep-ph/9302301}.
+
+\bibitem[{\citenamefont{Broncano et~al.}(2003)\citenamefont{Broncano, Gavela,
+  and Jenkins}}]{jenkins}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Broncano}},
+  \bibinfo{author}{\bibfnamefont{M.~B.} \bibnamefont{Gavela}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Jenkins}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B552}},
+  \bibinfo{pages}{177} (\bibinfo{year}{2003}), \eprint{hep-ph/0210271}.
+
+\bibitem[{\citenamefont{Fukuda et~al.}(1999)}]{SKatm2}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Fukuda}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Super-Kamiokande}), \bibinfo{journal}{Phys. Lett.}
+  \textbf{\bibinfo{volume}{B467}}, \bibinfo{pages}{185} (\bibinfo{year}{1999}),
+  \eprint{hep-ex/9908049}.
+
+\bibitem[{\citenamefont{Fukuda et~al.}(1994)}]{KAMatm}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Fukuda}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Kamiokande}), \bibinfo{journal}{Phys. Lett.}
+  \textbf{\bibinfo{volume}{B335}}, \bibinfo{pages}{237} (\bibinfo{year}{1994}).
+
+\bibitem[{\citenamefont{Becker-Szendy et~al.}(1995)}]{IMBatm}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Becker-Szendy}}
+  \bibnamefont{et~al.}, \bibinfo{journal}{Nucl. Phys. Proc. Suppl.}
+  \textbf{\bibinfo{volume}{38}}, \bibinfo{pages}{331} (\bibinfo{year}{1995}).
+
+\bibitem[{\citenamefont{Sanchez et~al.}(2003)}]{Soudanatmnew}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Sanchez}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Soudan 2}), \bibinfo{journal}{Phys. Rev.}
+  \textbf{\bibinfo{volume}{D68}}, \bibinfo{pages}{113004}
+  (\bibinfo{year}{2003}), \eprint{hep-ex/0307069}.
+
+\bibitem[{\citenamefont{Ambrosio et~al.}(2001)}]{MACROatm}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Ambrosio}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{MACRO}), \bibinfo{journal}{Phys. Lett.}
+  \textbf{\bibinfo{volume}{B517}}, \bibinfo{pages}{59} (\bibinfo{year}{2001}),
+  \eprint{hep-ex/0106049}.
+
+\bibitem[{\citenamefont{Apollonio et~al.}(1999)}]{CHOOZ}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Apollonio}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{CHOOZ}),
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B466}},
+  \bibinfo{pages}{415} (\bibinfo{year}{1999}), \eprint{hep-ex/9907037}.
+
+\bibitem[{\citenamefont{Ahmed et~al.}(2004)}]{SNOsolnew}
+\bibinfo{author}{\bibfnamefont{S.~N.} \bibnamefont{Ahmed}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{SNO}), \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{92}}, \bibinfo{pages}{181301}
+  (\bibinfo{year}{2004}), \eprint{nucl-ex/0309004}.
+
+\bibitem[{\citenamefont{Ahn et~al.}(2003)}]{K2Ksol}
+\bibinfo{author}{\bibfnamefont{M.~H.} \bibnamefont{Ahn}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{K2K}), \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{90}}, \bibinfo{pages}{041801}
+  (\bibinfo{year}{2003}), \eprint{hep-ex/0212007}.
+
+\bibitem[{\citenamefont{Smy et~al.}(2004)}]{SKsol2}
+\bibinfo{author}{\bibfnamefont{M.~B.} \bibnamefont{Smy}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Super-Kamiokande}), \bibinfo{journal}{Phys. Rev.}
+  \textbf{\bibinfo{volume}{D69}}, \bibinfo{pages}{011104}
+  (\bibinfo{year}{2004}), \eprint{hep-ex/0309011}.
+
+\bibitem[{\citenamefont{Abdurashitov et~al.}(2002)}]{SAGEsol}
+\bibinfo{author}{\bibfnamefont{J.~N.} \bibnamefont{Abdurashitov}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{SAGE}), \bibinfo{journal}{J.
+  Exp. Theor. Phys.} \textbf{\bibinfo{volume}{95}}, \bibinfo{pages}{181}
+  (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Cleveland et~al.}(1998)}]{HOMESTAKEsol}
+\bibinfo{author}{\bibfnamefont{B.~T.} \bibnamefont{Cleveland}}
+  \bibnamefont{et~al.}, \bibinfo{journal}{Astrophys. J.}
+  \textbf{\bibinfo{volume}{496}}, \bibinfo{pages}{505} (\bibinfo{year}{1998}).
+
+\bibitem[{\citenamefont{Hampel et~al.}(1999)}]{GALLEXsol}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Hampel}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{GALLEX}), \bibinfo{journal}{Phys. Lett.}
+  \textbf{\bibinfo{volume}{B447}}, \bibinfo{pages}{127} (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Cattadori}(2002)}]{GNOsol}
+\bibinfo{author}{\bibfnamefont{C.~M.} \bibnamefont{Cattadori}}
+  (\bibinfo{collaboration}{GNO}), \bibinfo{journal}{Nucl. Phys. Proc. Suppl.}
+  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{311} (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Harrison et~al.}(2002)\citenamefont{Harrison, Perkins,
+  and Scott}}]{hps1}
+\bibinfo{author}{\bibfnamefont{P.~F.} \bibnamefont{Harrison}},
+  \bibinfo{author}{\bibfnamefont{D.~H.} \bibnamefont{Perkins}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{W.~G.} \bibnamefont{Scott}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B530}},
+  \bibinfo{pages}{167} (\bibinfo{year}{2002}), \eprint{hep-ph/0202074}.
+
+\bibitem[{\citenamefont{He and Zee}(2003)}]{zeehe1}
+\bibinfo{author}{\bibfnamefont{X.~G.} \bibnamefont{He}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Zee}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B560}},
+  \bibinfo{pages}{87} (\bibinfo{year}{2003}), \eprint{hep-ph/0301092}.
+
+\bibitem[{\citenamefont{Kubo et~al.}(2003)\citenamefont{Kubo, Mondragon,
+  Mondragon, and Rodriguez-Jauregui}}]{kubo}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kubo}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Mondragon}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mondragon}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Rodriguez-Jauregui}},
+  \bibinfo{journal}{Prog. Theor. Phys.} \textbf{\bibinfo{volume}{109}},
+  \bibinfo{pages}{795} (\bibinfo{year}{2003}), \eprint{hep-ph/0302196}.
+
+\bibitem[{\citenamefont{Kubo et~al.}(2004)\citenamefont{Kubo, Okada, and
+  Sakamaki}}]{kubohiggspot}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kubo}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Okada}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Sakamaki}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D70}},
+  \bibinfo{pages}{036007} (\bibinfo{year}{2004}), \eprint{hep-ph/0402089}.
+
+\bibitem[{\citenamefont{Grimus et~al.}(2004{\natexlab{a}})\citenamefont{Grimus,
+  Joshipura, Kaneko, Lavoura, and Tanimoto}}]{grimfav}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Grimus}},
+  \bibinfo{author}{\bibfnamefont{A.~S.} \bibnamefont{Joshipura}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Kaneko}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Lavoura}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tanimoto}},
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{07}}, \bibinfo{pages}{078}
+  (\bibinfo{year}{2004}{\natexlab{a}}), \eprint{hep-ph/0407112}.
+
+\bibitem[{\citenamefont{Ma}(2004)}]{matbmwithvevs}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Ma}} (\bibinfo{year}{2004}),
+  \eprint{hep-ph/0404199}.
+
+\bibitem[{\citenamefont{Lavoura}(2000)}]{LavLmodel2}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Lavoura}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D62}},
+  \bibinfo{pages}{093011} (\bibinfo{year}{2000}), \eprint{hep-ph/0005321}.
+
+\bibitem[{\citenamefont{Low and Volkas}(2003)}]{nogo1}
+\bibinfo{author}{\bibfnamefont{C.~I.} \bibnamefont{Low}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~R.} \bibnamefont{Volkas}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D68}},
+  \bibinfo{pages}{033007} (\bibinfo{year}{2003}), \eprint{hep-ph/0305243}.
+
+\bibitem[{\citenamefont{Low}(2004)}]{nogo2}
+\bibinfo{author}{\bibfnamefont{C.~I.} \bibnamefont{Low}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D70}},
+  \bibinfo{pages}{073013} (\bibinfo{year}{2004}), \eprint{hep-ph/0404017}.
+
+\bibitem[{\citenamefont{Weinberg}(1979)}]{dim5}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Weinberg}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{43}},
+  \bibinfo{pages}{1566} (\bibinfo{year}{1979}).
+
+\bibitem[{\citenamefont{Cheng and Li}(1980)}]{triplet}
+\bibinfo{author}{\bibfnamefont{T.~P.} \bibnamefont{Cheng}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.-F.} \bibnamefont{Li}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D22}},
+  \bibinfo{pages}{2860} (\bibinfo{year}{1980}).
+
+\bibitem[{\citenamefont{Grimus et~al.}(2004{\natexlab{b}})\citenamefont{Grimus,
+  Joshipura, Lavoura, and Tanimoto}}]{grimlavtextures}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Grimus}},
+  \bibinfo{author}{\bibfnamefont{A.~S.} \bibnamefont{Joshipura}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Lavoura}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tanimoto}},
+  \bibinfo{journal}{Eur. Phys. J.} \textbf{\bibinfo{volume}{C36}},
+  \bibinfo{pages}{227} (\bibinfo{year}{2004}{\natexlab{b}}),
+  \eprint{hep-ph/0405016}.
+
+\bibitem[{\citenamefont{Zhou and Xing}(2004)}]{xingtext1}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Zhou}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Z.-z.} \bibnamefont{Xing}}
+  (\bibinfo{year}{2004}), \eprint{hep-ph/0404188}.
+
+\bibitem[{\citenamefont{Xing and Zhang}(2003)}]{xingtext2}
+\bibinfo{author}{\bibfnamefont{Z.-z.} \bibnamefont{Xing}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Zhang}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B569}},
+  \bibinfo{pages}{30} (\bibinfo{year}{2003}), \eprint{hep-ph/0304234}.
+
+\bibitem[{\citenamefont{Bando and Obara}(2003)}]{bandotext1}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bando}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Obara}},
+  \bibinfo{journal}{Prog. Theor. Phys.} \textbf{\bibinfo{volume}{109}},
+  \bibinfo{pages}{995} (\bibinfo{year}{2003}), \eprint{hep-ph/0302034}.
+
+\bibitem[{\citenamefont{Bando et~al.}(2004)\citenamefont{Bando, Kaneko, Obara,
+  and Tanimoto}}]{bandotext2}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bando}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Kaneko}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Obara}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tanimoto}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B580}},
+  \bibinfo{pages}{229} (\bibinfo{year}{2004}), \eprint{hep-ph/0309310}.
+
+\bibitem[{\citenamefont{Lavoura}(2004)}]{lavtext}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Lavoura}}
+  (\bibinfo{year}{2004}), \eprint{hep-ph/0411232}.
+
+\bibitem[{\citenamefont{Joshipura}(2004)}]{joshtheta13}
+\bibinfo{author}{\bibfnamefont{A.~S.} \bibnamefont{Joshipura}}
+  (\bibinfo{year}{2004}), \eprint{hep-ph/0411154}.
+
+\bibitem[{\citenamefont{Chen et~al.}(2004)\citenamefont{Chen, Frigerio, and
+  Ma}}]{matheta13}
+\bibinfo{author}{\bibfnamefont{S.-L.} \bibnamefont{Chen}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Frigerio}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Ma}} (\bibinfo{year}{2004}),
+  \eprint{hep-ph/0412018}.
+
+\bibitem[{\citenamefont{Petcov and Rodejohann}(2004)}]{rojL}
+\bibinfo{author}{\bibfnamefont{S.~T.} \bibnamefont{Petcov}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Rodejohann}}
+  (\bibinfo{year}{2004}), \eprint{hep-ph/0409135}.
+
+\bibitem[{\citenamefont{Grimus and Lavoura}(2004)}]{lavL}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Grimus}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Lavoura}}
+  (\bibinfo{year}{2004}), \eprint{hep-ph/0410279}.
+
+\bibitem[{\citenamefont{Branco et~al.}(1989)\citenamefont{Branco, Grimus, and
+  Lavoura}}]{grimlavL}
+\bibinfo{author}{\bibfnamefont{G.~C.} \bibnamefont{Branco}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Grimus}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Lavoura}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B312}},
+  \bibinfo{pages}{492} (\bibinfo{year}{1989}).
+
+\bibitem[{\citenamefont{Barbieri et~al.}(1998)\citenamefont{Barbieri, Hall,
+  Smith, Strumia, and Weiner}}]{barbieriL}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Barbieri}},
+  \bibinfo{author}{\bibfnamefont{L.~J.} \bibnamefont{Hall}},
+  \bibinfo{author}{\bibfnamefont{D.~R.} \bibnamefont{Smith}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Strumia}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Weiner}},
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{017}
+  (\bibinfo{year}{1998}), \eprint{hep-ph/9807235}.
+
+\bibitem[{\citenamefont{Petcov}(1982)}]{petcovL}
+\bibinfo{author}{\bibfnamefont{S.~T.} \bibnamefont{Petcov}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B110}},
+  \bibinfo{pages}{245} (\bibinfo{year}{1982}).
+
+\bibitem[{\citenamefont{Leung and Petcov}(1983)}]{leungL}
+\bibinfo{author}{\bibfnamefont{C.~N.} \bibnamefont{Leung}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~T.} \bibnamefont{Petcov}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B125}},
+  \bibinfo{pages}{461} (\bibinfo{year}{1983}).
+
+\bibitem[{\citenamefont{Joshipura and Rindani}(2000)}]{joshipuraL}
+\bibinfo{author}{\bibfnamefont{A.~S.} \bibnamefont{Joshipura}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.~D.}
+  \bibnamefont{Rindani}}, \bibinfo{journal}{Eur. Phys. J.}
+  \textbf{\bibinfo{volume}{C14}}, \bibinfo{pages}{85} (\bibinfo{year}{2000}),
+  \eprint{hep-ph/9811252}.
+
+\bibitem[{\citenamefont{Fogli et~al.}(2004)}]{fog04}
+\bibinfo{author}{\bibfnamefont{G.~L.} \bibnamefont{Fogli}} \bibnamefont{et~al.}
+  (\bibinfo{year}{2004}), \eprint{hep-ph/0408045}.
+
+\bibitem[{\citenamefont{Frigerio and Smirnov}(2003)}]{rgesmirnov}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Frigerio}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~Y.} \bibnamefont{Smirnov}},
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{02}}, \bibinfo{pages}{004}
+  (\bibinfo{year}{2003}), \eprint{hep-ph/0212263}.
+
+\bibitem[{\citenamefont{Antusch et~al.}(2001)\citenamefont{Antusch, Drees,
+  Kersten, Lindner, and Ratz}}]{rgemunich}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Antusch}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Drees}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kersten}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Lindner}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Ratz}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B519}},
+  \bibinfo{pages}{238} (\bibinfo{year}{2001}), \eprint{hep-ph/0108005}.
+
+\end{thebibliography}

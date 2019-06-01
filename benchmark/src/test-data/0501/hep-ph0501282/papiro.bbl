@@ -1,0 +1,288 @@
+\begin{thebibliography}{41}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Sivers}(1990)}]{Sivers:1989cc}
+\bibinfo{author}{\bibfnamefont{D.~W.} \bibnamefont{Sivers}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D41}},
+  \bibinfo{pages}{83} (\bibinfo{year}{1990}).
+
+\bibitem[{\citenamefont{Sivers}(1991)}]{Sivers:1990fh}
+\bibinfo{author}{\bibfnamefont{D.~W.} \bibnamefont{Sivers}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D43}},
+  \bibinfo{pages}{261} (\bibinfo{year}{1991}).
+
+\bibitem[{\citenamefont{Anselmino et~al.}(1995)\citenamefont{Anselmino,
+  Boglione, and Murgia}}]{Anselmino:1994tv}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Boglione}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B362}},
+  \bibinfo{pages}{164} (\bibinfo{year}{1995}).
+
+\bibitem[{\citenamefont{Anselmino and Murgia}(1998)}]{Anselmino:1998yz}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B442}},
+  \bibinfo{pages}{470} (\bibinfo{year}{1998}).
+
+\bibitem[{\citenamefont{Mulders and Tangerman}(1996)}]{Mulders:1995dh}
+\bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{Mulders}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~D.} \bibnamefont{Tangerman}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B461}},
+  \bibinfo{pages}{197} (\bibinfo{year}{1996}).
+
+\bibitem[{\citenamefont{Boer and Mulders}(1998)}]{Boer:1997nt}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Boer}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{Mulders}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D57}},
+  \bibinfo{pages}{5780} (\bibinfo{year}{1998}).
+
+\bibitem[{\citenamefont{Boer}(1999)}]{Boer:1999mm}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Boer}}, \bibinfo{journal}{Phys.
+  Rev.} \textbf{\bibinfo{volume}{D60}}, \bibinfo{pages}{014012}
+  (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Collins}(1993)}]{Collins:1992kk}
+\bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{Collins}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B396}},
+  \bibinfo{pages}{161} (\bibinfo{year}{1993}).
+
+\bibitem[{\citenamefont{Brodsky et~al.}(2002)\citenamefont{Brodsky, Hwang, and
+  Schmidt}}]{Brodsky:2002cx}
+\bibinfo{author}{\bibfnamefont{S.~J.} \bibnamefont{Brodsky}},
+  \bibinfo{author}{\bibfnamefont{D.~S.} \bibnamefont{Hwang}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Schmidt}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B530}},
+  \bibinfo{pages}{99} (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Collins}(2002)}]{Collins:2002kn}
+\bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{Collins}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B536}},
+  \bibinfo{pages}{43} (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Ji and Yuan}(2002)}]{Ji:2002aa}
+\bibinfo{author}{\bibfnamefont{X.-d.} \bibnamefont{Ji}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Yuan}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B543}},
+  \bibinfo{pages}{66} (\bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{Belitsky et~al.}(2003)\citenamefont{Belitsky, Ji, and
+  Yuan}}]{Belitsky:2002sm}
+\bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Belitsky}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ji}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Yuan}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B656}},
+  \bibinfo{pages}{165} (\bibinfo{year}{2003}).
+
+\bibitem[{\citenamefont{Yuan}(2003)}]{Yuan:2003wk}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Yuan}}, \bibinfo{journal}{Phys.
+  Lett.} \textbf{\bibinfo{volume}{B575}}, \bibinfo{pages}{45}
+  (\bibinfo{year}{2003}).
+
+\bibitem[{\citenamefont{Bacchetta et~al.}(2004)\citenamefont{Bacchetta,
+  Schaefer, and Yang}}]{Bacchetta:2003rz}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Schaefer}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.-J.} \bibnamefont{Yang}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B578}},
+  \bibinfo{pages}{109} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{Lu and Ma}(2004)}]{Lu:2004au}
+\bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{Lu}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.-Q.} \bibnamefont{Ma}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{A741}},
+  \bibinfo{pages}{200} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{Bando et~al.}(1985{\natexlab{a}})\citenamefont{Bando,
+  Kugo, Uehara, Yamawaki, and Yanagida}}]{Bando:1984ej}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bando}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Kugo}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Uehara}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Yamawaki}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Yanagida}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{54}},
+  \bibinfo{pages}{1215} (\bibinfo{year}{1985}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Bando et~al.}(1985{\natexlab{b}})\citenamefont{Bando,
+  Kugo, and Yamawaki}}]{Bando:1984pw}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bando}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Kugo}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Yamawaki}},
+  \bibinfo{journal}{Prog. Theor. Phys.} \textbf{\bibinfo{volume}{73}},
+  \bibinfo{pages}{1541} (\bibinfo{year}{1985}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Meissner et~al.}(1986)\citenamefont{Meissner, Kaiser,
+  Wirzba, and Weise}}]{Meissner:1986ka}
+\bibinfo{author}{\bibfnamefont{U.~G.} \bibnamefont{Meissner}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Kaiser}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Wirzba}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Weise}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{57}},
+  \bibinfo{pages}{1676} (\bibinfo{year}{1986}).
+
+\bibitem[{\citenamefont{Meissner}(1988)}]{Meissner:1987ge}
+\bibinfo{author}{\bibfnamefont{U.~G.} \bibnamefont{Meissner}},
+  \bibinfo{journal}{Phys. Rept.} \textbf{\bibinfo{volume}{161}},
+  \bibinfo{pages}{213} (\bibinfo{year}{1988}).
+
+\bibitem[{\citenamefont{Bando et~al.}(1988)\citenamefont{Bando, Kugo, and
+  Yamawaki}}]{Bando:1987br}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bando}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Kugo}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Yamawaki}},
+  \bibinfo{journal}{Phys. Rept.} \textbf{\bibinfo{volume}{164}},
+  \bibinfo{pages}{217} (\bibinfo{year}{1988}).
+
+\bibitem[{\citenamefont{Kaymakcalan et~al.}(1984)\citenamefont{Kaymakcalan,
+  Rajeev, and Schechter}}]{Kaymakcalan:1983qq}
+\bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Kaymakcalan}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rajeev}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Schechter}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D30}},
+  \bibinfo{pages}{594} (\bibinfo{year}{1984}).
+
+\bibitem[{\citenamefont{Gomm et~al.}(1984)\citenamefont{Gomm, Kaymakcalan, and
+  Schechter}}]{Gomm:1984at}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Gomm}},
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Kaymakcalan}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Schechter}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D30}},
+  \bibinfo{pages}{2345} (\bibinfo{year}{1984}).
+
+\bibitem[{\citenamefont{Kaymakcalan and Schechter}(1985)}]{Kaymakcalan:1984bz}
+\bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Kaymakcalan}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Schechter}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D31}},
+  \bibinfo{pages}{1109} (\bibinfo{year}{1985}).
+
+\bibitem[{\citenamefont{Cremmer and Julia}(1978)}]{Cremmer:1978ds}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Cremmer}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Julia}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B80}},
+  \bibinfo{pages}{48} (\bibinfo{year}{1978}).
+
+\bibitem[{\citenamefont{Cremmer and Julia}(1979)}]{Cremmer:1979up}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Cremmer}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Julia}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B159}},
+  \bibinfo{pages}{141} (\bibinfo{year}{1979}).
+
+\bibitem[{\citenamefont{Golo and Perelomov}(1978)}]{Golo:1978de}
+\bibinfo{author}{\bibfnamefont{V.~L.} \bibnamefont{Golo}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Perelomov}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B79}},
+  \bibinfo{pages}{112} (\bibinfo{year}{1978}).
+
+\bibitem[{\citenamefont{D'Adda et~al.}(1978)\citenamefont{D'Adda, Luscher, and
+  Di~Vecchia}}]{D'Adda:1978uc}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{D'Adda}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Luscher}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Di~Vecchia}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B146}},
+  \bibinfo{pages}{63} (\bibinfo{year}{1978}).
+
+\bibitem[{\citenamefont{D'Adda et~al.}(1979)\citenamefont{D'Adda, Di~Vecchia,
+  and Luscher}}]{D'Adda:1978kp}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{D'Adda}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Di~Vecchia}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Luscher}},
+  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B152}},
+  \bibinfo{pages}{125} (\bibinfo{year}{1979}).
+
+\bibitem[{\citenamefont{Breitenlohner and Maison}(1983)}]{Breitenlohner:1984rr}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Breitenlohner}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Maison}}
+  (\bibinfo{year}{1983}), \bibinfo{note}{presented at 'Int. Seminar on Exact
+  Solutions of Einstein's Equations', Retzbach, Nov 14-18, 1983}.
+
+\bibitem[{\citenamefont{Simic}(1986)}]{Simic:1985jx}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Simic}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D34}},
+  \bibinfo{pages}{1903} (\bibinfo{year}{1986}).
+
+\bibitem[{\citenamefont{Ruiz~Arriola et~al.}(1990)\citenamefont{Ruiz~Arriola,
+  Alberto, Goeke, and Urbano}}]{RuizArriola:1990am}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Ruiz~Arriola}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Alberto}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Goeke}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.~N.} \bibnamefont{Urbano}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B236}},
+  \bibinfo{pages}{381} (\bibinfo{year}{1990}).
+
+\bibitem[{\citenamefont{Anselmino
+  et~al.}(1997{\natexlab{a}})\citenamefont{Anselmino, Drago, and
+  Murgia}}]{Anselmino:1996qm}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Drago}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}},
+  \bibinfo{note}{'12th International Symposium on High-energy Spin
+  Physics' (SPIN 96), Amsterdam, Netherlands, 10-14 Sep 1996.
+  World Scientific (1997) p.~283}.
+
+\bibitem[{\citenamefont{Anselmino
+  et~al.}(1997{\natexlab{b}})\citenamefont{Anselmino, Drago, and
+  Murgia}}]{Anselmino:1997jj}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Drago}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}}
+  (\bibinfo{year}{1997}{\natexlab{b}}), \eprint{hep-ph/9703303}.
+
+\bibitem[{\citenamefont{Anselmino
+  et~al.}(2002{\natexlab{a}})\citenamefont{Anselmino, Barone, Drago, and
+  Murgia}}]{Anselmino:2001vn}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Barone}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Drago}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}},
+  \bibinfo{journal}{Nucl. Phys. Proc. Suppl.} \textbf{\bibinfo{volume}{105}},
+  \bibinfo{pages}{132} (\bibinfo{year}{2002}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Anselmino
+  et~al.}(2002{\natexlab{b}})\citenamefont{Anselmino, Barone, Drago, and
+  Murgia}}]{Anselmino:2002yx}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Barone}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Drago}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}}
+  (\bibinfo{year}{2002}{\natexlab{b}}), \eprint{hep-ph/0209073}.
+
+\bibitem[{\citenamefont{Pobylitsa}(2003)}]{Pobylitsa:2003ty}
+\bibinfo{author}{\bibfnamefont{P.~V.} \bibnamefont{Pobylitsa}}
+  (\bibinfo{year}{2003}), \eprint{hep-ph/0301236}.
+
+\bibitem[{\citenamefont{Airapetian et~al.}(2005)}]{Airapetian:2004tw}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Airapetian}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{HERMES}),
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{94}},
+  \bibinfo{pages}{012002} (\bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Webb}(2005)}]{Webb:2005cd}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Webb}} (\bibinfo{year}{2005}),
+  \eprint{hep-ex/0501031}.
+
+\bibitem[{\citenamefont{Pagano}(2005)}]{Pagano:2005jx}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Pagano}}
+  (\bibinfo{year}{2005}), \eprint{hep-ex/0501035}.
+
+\bibitem[{PAX()}]{PAX}
+ \bibinfo{note}{PAX Collaboration. Letter of intent for
+  'Antiproton-Proton Scattering Experiments with Polarization', Spokespersons:
+  F.~Rathmann and P.~Lenisa}, \eprint{http://www.fz-juelich.de/ikp/pax/}.
+
+\bibitem[{\citenamefont{Anselmino et~al.}(2005)}]{Anselmino:2005nn}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}}
+  \bibnamefont{et~al.} (\bibinfo{year}{2005}), \eprint{hep-ph/0501196}.
+
+\end{thebibliography}

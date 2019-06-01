@@ -1,0 +1,41 @@
+%
+%  This package provides the \Lep command to define which running
+%  phase of LEP was used for the analysis.  This is then used to
+%  control the names on the author lists.
+%
+%  Note that all of the stuff at the top is to more or less provide a 
+%  package, and to require the ifthen package.  But since this package
+%  might not be used in the preamble, I wanted to make sure that it could
+%  be called in the authorlist....
+%
+\ifx\isLeploaded\relax\endinput\else\let\isLeploaded=\relax\fi%
+\ifx\ifthenelse\undefined{%
+\typeout{       }%
+\typeout{!!!!!!!}%
+\typeout{The ifthen package is required!}%
+\typeout{!!!!!!!}%
+\typeout{       }%
+\end{document}}\fi%
+%
+%
+\newif\iflepI  % for Lep I
+\newif\iflepII % for Lep II
+%
+\newcommand{\Lep}[1]{%
+ \def\LepCalled{\relax}%
+ \ifthenelse{\equal{#1}{1}}{%
+    \lepItrue%
+    \lepIIfalse}%
+  {\ifthenelse{\equal{#1}{2}}{%
+      \lepIfalse%
+      \lepIItrue}%
+     {\typeout{   }%
+      \typeout{Unknown running period #1. Using Lep 1.}%
+      \typeout{   }%
+      \Lep{1}}}}%
+%
+\newcommand{\onlylep}[1]{%
+    \ifthenelse{\boolean{lepI}}{#1}{}}%
+\newcommand{\notlep}[1]{%
+    \ifthenelse{\boolean{lepII}}{#1}{}}%
+%

@@ -1,0 +1,360 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%Title: 
+%%Creator: FeynDiagram $Revision: 2.6 $  by Bill Dimm
+%%CreationDate: 2004-12-30 10:59 feyn.ps
+%%For:georg georg
+%%Pages: 1
+%%DocumentFonts:
+%%BoundingBox: 71 209 541 628
+save countdictstack mark newpath /showpage {} def /setpagedevice {pop} def
+%%EndProlog
+%%Page: 1 1
+%%BeginDocument: feyn.ps
+%!
+% $Id: abbrev.ps,v 1.11 2000/04/18 19:16:07 billd Exp $
+
+/CP /charpath load def
+/CF /currentflat load def
+/CPT /currentpoint load def
+/C2 /curveto load def
+/RC2 /rcurveto load def
+/FP /flattenpath load def
+/L2 /lineto load def
+/M2 /moveto load def
+/NP /newpath load def
+/PBX /pathbbox load def
+/RM2 /rmoveto load def
+/SD /setdash load def
+/SLC /setlinecap load def
+/SLW /setlinewidth load def
+/S /show load def
+/ST /stroke load def
+
+% $Id: max.ps,v 1.10 2000/04/18 19:16:07 billd Exp $
+
+/max { 2 copy lt {exch} if pop } bind def
+
+% $Id: vertex.ps,v 1.11 2000/04/18 19:16:07 billd Exp $
+
+/vtx_dict 20 dict def
+vtx_dict /vtx_mtrxstor matrix put
+
+/vtx_create
+  {
+  vtx_dict begin
+
+  /ang exch def
+  /rad exch def
+  /y exch def
+  /x exch def
+  /vtx_proc exch def
+
+  /vtx_oldmatrix vtx_mtrxstor currentmatrix def
+
+  x y translate
+  ang rotate
+
+  vtx_proc
+
+  vtx_oldmatrix setmatrix
+  end
+  } bind def
+
+
+/vtx_dot
+  {
+  NP
+  rad 0 M2
+  0 0 rad 0 360 arc
+  0 setgray
+  fill
+  } bind def
+
+
+/vtx_box
+  {
+  NP
+  rad rad M2
+  rad rad neg L2
+  rad neg rad neg L2
+  rad neg rad L2
+  closepath
+  0 setgray
+  fill
+  } def
+
+/vtx_open_box
+  {
+  NP
+  rad rad M2
+  rad rad neg L2
+  rad neg rad neg L2
+  rad neg rad L2
+  closepath
+  1 setgray
+  gsave fill grestore
+	0 setgray
+	ST
+  } def
+
+/vtx_cross
+  {
+  NP
+  -1 2 sqrt div rad mul
+  -1 2 sqrt div rad mul
+  M2
+  1 2 sqrt div rad mul
+  1 2 sqrt div rad mul
+  L2
+
+  -1 2 sqrt div rad mul
+  1 2 sqrt div rad mul
+  M2
+  1 2 sqrt div rad mul
+  -1 2 sqrt div rad mul
+  L2
+
+  ST
+  } def
+
+/vtx_circlecross
+  {
+  /xshrfct .63 def
+
+    % blank out whatever is underneath
+  NP
+  rad 0 M2
+  0 0 rad 0 360 arc
+  1 setgray
+  fill
+
+  NP
+  -1 2 sqrt div rad mul xshrfct mul
+  -1 2 sqrt div rad mul xshrfct mul
+  M2
+  1 2 sqrt div rad mul xshrfct mul
+  1 2 sqrt div rad mul xshrfct mul
+  L2
+
+  -1 2 sqrt div rad mul xshrfct mul
+  1 2 sqrt div rad mul xshrfct mul
+  M2
+  1 2 sqrt div rad mul xshrfct mul
+  -1 2 sqrt div rad mul xshrfct mul
+  L2
+
+  rad 0 M2
+  0 0 rad 0 360 arc
+
+  0 setgray
+  ST
+  } def
+
+% $Id: text.ps,v 1.10 2000/04/18 19:16:07 billd Exp $
+
+/text_dict 20 dict def
+text_dict /text_mtrxstor matrix put
+
+/SF* {  exch findfont exch scalefont setfont } bind def
+
+systemdict /selectfont known
+  { /SF /selectfont load def }
+  { /SF /SF* load def }
+  ifelse
+
+/txtsta
+  {
+  text_dict begin
+
+  /angle exch def
+  /y exch def
+  /x exch def
+
+  /text_oldmtrx text_mtrxstor currentmatrix def
+
+  x y translate
+  angle rotate
+  } bind def
+
+
+/txtend
+  {
+  text_oldmtrx setmatrix
+  end
+  } bind def
+
+save
+
+NP
+1.638 SLW
+1 SLC
+72 583.2 M2
+76.3333 572.062 80.6667 572.062 85 583.2 C2
+89.3333 594.338 93.6667 594.338 98 583.2 C2
+102.333 572.062 106.667 572.062 111 583.2 C2
+115.333 594.338 119.667 594.338 124 583.2 C2
+128.333 572.062 132.667 572.062 137 583.2 C2
+141.333 594.338 145.667 594.338 150 583.2 C2
+154.333 572.062 158.667 572.062 163 583.2 C2
+167.333 594.338 171.667 594.338 176 583.2 C2
+180.333 572.062 184.667 572.062 189 583.2 C2
+193.333 594.338 197.667 594.338 202 583.2 C2
+206.333 572.062 210.667 572.062 215 583.2 C2
+219.333 594.338 223.667 594.338 228 583.2 C2
+232.333 572.062 236.667 572.062 241 583.2 C2
+245.333 594.338 249.667 594.338 254 583.2 C2
+258.333 572.062 262.667 572.062 267 583.2 C2
+271.333 594.338 275.667 594.338 280 583.2 C2
+284.333 572.062 288.667 572.062 293 583.2 C2
+297.333 594.338 301.667 594.338 306 583.2 C2
+ST
+NP
+1.638 SLW
+1 SLC
+306 583.2 M2
+310.333 572.062 314.667 572.062 319 583.2 C2
+323.333 594.338 327.667 594.338 332 583.2 C2
+336.333 572.062 340.667 572.062 345 583.2 C2
+349.333 594.338 353.667 594.338 358 583.2 C2
+362.333 572.062 366.667 572.062 371 583.2 C2
+375.333 594.338 379.667 594.338 384 583.2 C2
+388.333 572.062 392.667 572.062 397 583.2 C2
+401.333 594.338 405.667 594.338 410 583.2 C2
+414.333 572.062 418.667 572.062 423 583.2 C2
+427.333 594.338 431.667 594.338 436 583.2 C2
+440.333 572.062 444.667 572.062 449 583.2 C2
+453.333 594.338 457.667 594.338 462 583.2 C2
+466.333 572.062 470.667 572.062 475 583.2 C2
+479.333 594.338 483.667 594.338 488 583.2 C2
+492.333 572.062 496.667 572.062 501 583.2 C2
+505.333 594.338 509.667 594.338 514 583.2 C2
+518.333 572.062 522.667 572.062 527 583.2 C2
+531.333 594.338 535.667 594.338 540 583.2 C2
+ST
+NP
+1.638 SLW
+1 SLC
+72 255.6 M2
+76.3333 244.462 80.6667 244.462 85 255.6 C2
+89.3333 266.738 93.6667 266.738 98 255.6 C2
+102.333 244.462 106.667 244.462 111 255.6 C2
+115.333 266.738 119.667 266.738 124 255.6 C2
+128.333 244.462 132.667 244.462 137 255.6 C2
+141.333 266.738 145.667 266.738 150 255.6 C2
+154.333 244.462 158.667 244.462 163 255.6 C2
+167.333 266.738 171.667 266.738 176 255.6 C2
+180.333 244.462 184.667 244.462 189 255.6 C2
+193.333 266.738 197.667 266.738 202 255.6 C2
+206.333 244.462 210.667 244.462 215 255.6 C2
+219.333 266.738 223.667 266.738 228 255.6 C2
+232.333 244.462 236.667 244.462 241 255.6 C2
+245.333 266.738 249.667 266.738 254 255.6 C2
+258.333 244.462 262.667 244.462 267 255.6 C2
+271.333 266.738 275.667 266.738 280 255.6 C2
+284.333 244.462 288.667 244.462 293 255.6 C2
+297.333 266.738 301.667 266.738 306 255.6 C2
+ST
+NP
+1.638 SLW
+1 SLC
+306 255.6 M2
+310.333 244.462 314.667 244.462 319 255.6 C2
+323.333 266.738 327.667 266.738 332 255.6 C2
+336.333 244.462 340.667 244.462 345 255.6 C2
+349.333 266.738 353.667 266.738 358 255.6 C2
+362.333 244.462 366.667 244.462 371 255.6 C2
+375.333 266.738 379.667 266.738 384 255.6 C2
+388.333 244.462 392.667 244.462 397 255.6 C2
+401.333 266.738 405.667 266.738 410 255.6 C2
+414.333 244.462 418.667 244.462 423 255.6 C2
+427.333 266.738 431.667 266.738 436 255.6 C2
+440.333 244.462 444.667 244.462 449 255.6 C2
+453.333 266.738 457.667 266.738 462 255.6 C2
+466.333 244.462 470.667 244.462 475 255.6 C2
+479.333 266.738 483.667 266.738 488 255.6 C2
+492.333 244.462 496.667 244.462 501 255.6 C2
+505.333 266.738 509.667 266.738 514 255.6 C2
+518.333 244.462 522.667 244.462 527 255.6 C2
+531.333 266.738 535.667 266.738 540 255.6 C2
+ST
+NP
+1.638 SLW
+1 SLC
+306 583.2 M2
+294.862 578.832 294.862 574.464 306 570.096 C2
+317.138 565.728 317.138 561.36 306 556.992 C2
+294.862 552.624 294.862 548.256 306 543.888 C2
+317.138 539.52 317.138 535.152 306 530.784 C2
+294.862 526.416 294.862 522.048 306 517.68 C2
+317.138 513.312 317.138 508.944 306 504.576 C2
+294.862 500.208 294.862 495.84 306 491.472 C2
+317.138 487.104 317.138 482.736 306 478.368 C2
+294.862 474 294.862 469.632 306 465.264 C2
+317.138 460.896 317.138 456.528 306 452.16 C2
+294.862 447.792 294.862 443.424 306 439.056 C2
+317.138 434.688 317.138 430.32 306 425.952 C2
+294.862 421.584 294.862 417.216 306 412.848 C2
+317.138 408.48 317.138 404.112 306 399.744 C2
+294.862 395.376 294.862 391.008 306 386.64 C2
+317.138 382.272 317.138 377.904 306 373.536 C2
+294.862 369.168 294.862 364.8 306 360.432 C2
+317.138 356.064 317.138 351.696 306 347.328 C2
+294.862 342.96 294.862 338.592 306 334.224 C2
+317.138 329.856 317.138 325.488 306 321.12 C2
+294.862 316.752 294.862 312.384 306 308.016 C2
+317.138 303.648 317.138 299.28 306 294.912 C2
+294.862 290.544 294.862 286.176 306 281.808 C2
+317.138 277.44 317.138 273.072 306 268.704 C2
+294.862 264.336 294.862 259.968 306 255.6 C2
+ST
+2.457 SLW
+{vtx_dot} 306 583.2 4.212 0 vtx_create
+2.457 SLW
+{vtx_dot} 306 255.6 4.212 0 vtx_create
+189 606.6 0 txtsta
+0 0 M2
+/Times-Roman 28.08 SF
+(b) S
+txtend
+423 606.6 0 txtsta
+0 0 M2
+/Times-Roman 28.08 SF
+(b) S
+txtend
+189 208.8 0 txtsta
+0 0 M2
+/Times-Roman 28.08 SF
+(b) S
+txtend
+423 208.8 0 txtsta
+0 0 M2
+/Times-Roman 28.08 SF
+(b) S
+txtend
+329.4 419.4 0 txtsta
+0 0 M2
+/Times-Roman 28.08 SF
+(b) S
+txtend
+282.6 606.6 0 txtsta
+0 0 M2
+/Times-Roman 28.08 SF
+(4) S
+/Symbol 28.08 SF
+(\154) S
+/Times-Roman 28.08 SF
+( F) S
+CPT
+0 -5.616 RM2
+/Times-Roman 19.656 SF
+(b) S
+exch pop CPT pop exch M2
+/Times-Roman 28.08 SF
+() S
+txtend
+restore
+showpage
+%%EndDocument
+%%Trailer
+cleartomark countdictstack exch sub { end } repeat restore
+%%EOF
