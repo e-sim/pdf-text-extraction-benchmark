@@ -5,7 +5,7 @@
 
 The purpose of this project was to make PDF extraction tools available for batch use on patas, the server of the department of Linguistics at University of Washington.  A secondary goal was to evaluate these tools in order to be able to advise on usage.  Future goals include evaluation of these tools on multilingual documents (this was the original project idea).
 
-This project is based on the 2017 work by Hannah Bast and Claudius Korzen and their paper "A Benchmark and Evaluation for Text Extraction from PDF."  It is their code that is called in the shell scripts, and they collected the benchmark data.  I was able to replicate their results when running the tools on patas, and so I am confident that the tools are working as intended.
+This project is based on the 2017 work by Hannah Bast and Claudius Korzen and their paper "A Benchmark and Evaluation for Text Extraction from PDF."  It is their code that is called in the shell scripts, and they collected the benchmark data.  Their original code can be found at http://github.com/ckorzen/pdf-text-extraction-benchmark. I was able to replicate their results when running the tools on patas, and so I am confident that the tools are working as intended. 
 
 
 ### About
