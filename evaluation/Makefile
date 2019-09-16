@@ -5,12 +5,13 @@ LN = ln -s
 CHECKSTYLE = @flake8
 TEST_BINARIES = $(wildcard *_test.py)
 
-TOOLS = pdftotext pdftohtml pdftoxml pdfbox pdf2xml parscit lapdftext pdfminer pdfXtk pdfextract PDFExtract grobid icecite
+TOOLS = pdftoxml pdfbox lapdftext pdfXtk pdfextract grobid icecite
+#pdftotext pdftohtml pdftoxml pdfbox pdf2xml parscit lapdftext pdfminer pdfXtk pdfextract PDFExtract grobid icecite
 
-GROUND_TRUTH_DIR = ../benchmark/groundtruth/data
-PDF_DIR = ../benchmark/pdf/data
+GROUND_TRUTH_DIR = ../benchmark/groundtruth/paper-data
+PDF_DIR = ../benchmark/pdf/paper-data
 TOOLS_DIR = ./tools/data
-OUTPUT_DIR = ./output/data
+OUTPUT_DIR = ./output/paper-data
 
 EVALUATOR_SRC = ./bin/evaluator.py
 EXTRACTOR_SRC = ./bin/extractor.py
@@ -28,7 +29,7 @@ NUM_THREADS = -1
 MUTE = False
 FORCE = False
 TIMEOUT = 300
-TABLE_TYPES = 
+TABLE_TYPES = markdown
 
 TOOLS_DIR_DOWNLOAD_URL = http://arxiv-benchmark.informatik.uni-freiburg.de/data/evaluation/tools/
 TOOLS_DIR_LOCAL_PATH = /nfs/raid1/arxiv/benchmark-data/evaluation/tools/

@@ -1,11 +1,4 @@
 
-\tool{PdfBox} & \TD{\summary{\no}{\od}{\no}{\li}{\di}{\no}} & \TDD{46}{63} & \TDDbest{6.2}{8.6} & \TDD{74}{30} & \TDDbest{1.3}{0.9} & \TDD{0.0}{0.1} & \TDD{20}{0.6} & \TDD{1.0}{0.0} & \TDD{54}{1.7} & \TDbest{0} & \TD{8.8} \TDeol
-\tool{LA-PdfText} & \TD{\summary{\no}{\od}{\ro}{\li}{\no}{\no}} & \TDD{6.1}{8.2} & \TDD{27}{36} & \TDDbest{5.1}{5.0} & \TDD{44}{65} & \TDD{3.4}{7.7} & \TDDbest{5.7}{0.1} & \TDD{6.9}{0.2} & \TDD{32}{0.8} & \TD{8} & \TD{24} \TDeol
-\tool{pdfXtk} & \TD{\summary{\no}{\od}{\no}{\li}{\no}{\no}} & \TDD{6.9}{9.7} & \TDD{60}{85} & \TDD{11}{30} & \TDD{3.1}{2.4} & \TDD{0.1}{0.1} & \TDD{47}{1.6} & \TDD{4.1}{0.1} & \TDD{89}{2.9} & \TD{12} & \TD{22} \TDeol
-\tool{pdf-extract} & \TD{\summary{\no}{\od}{\no}{\li}{\no}{\no}} & \TDD{8.7}{12} & \TDD{27}{37} & \TDD{28}{23} & \TDD{21}{24} & \TDD{0.8}{1.1} & \TDD{7.7}{0.3} & \TDD{1.5}{0.0} & \TDD{54}{1.8} & \TD{6} & \TD{34} \TDeol
-\tool{Grobid} & \TD{\summary{\no}{\od}{\ro}{\li}{\di}{\hy}} & \TDD{6.9}{9.6} & \TDD{26}{36} & \TDD{6.0}{4.8} & \TDD{10}{16} & \TDDbest{0.0}{0.0} & \TDD{11}{0.4} & \TDDbest{1.0}{0.0} & \TDD{53}{1.8} & \TD{6} & \TD{42} \TDeol
-\tool{Icecite} & \TD{\summary{\pa}{\od}{\ro}{\li}{\di}{\hy}} & \TDDbest{2.9}{4.0} & \TDD{8.2}{11} & \TDD{5.4}{4.1} & \TDD{7.1}{5.7} & \TDD{0.0}{0.1} & \TDD{7.9}{0.3} & \TDD{1.2}{0.0} & \TDDbest{18}{0.6} & \TD{2} & \TD{41} \TDeol
-
 | Tool                | NL+  | NL–  | P+   | P-   | P&#8597;  | W+   | W-   | W~   | ERR  | T∅   |
 | ------------------- |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | PdfBox | 46 <br> <sup>(63%)</sup> | **6.2** <br> <sup>**(8.6%)**</sup> | 74 <br> <sup>(30%)</sup> | **1.3** <br> <sup>**(0.9%)**</sup> | 0.0 <br> <sup>(0.1%)</sup> | 20 <br> <sup>(0.6%)</sup> | 1.0 <br> <sup>(0.0%)</sup> | 54 <br> <sup>(1.7%)</sup> | **0** | 8.8 |

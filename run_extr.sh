@@ -7,20 +7,27 @@
 # (or wherever the main pdf-extraction folder is)
 # expected input: folder full of .pdfs
 # expected output: folder full of .txts with extracted plain text
-# useage:
+
+# useage: ./run_extr.sh path/to/pdfs path/to/output "[list of tools]"
+
+# let's give the people some help!
+if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]]; then
+  echo "Usage: `basename $0` path/to/pdfs path/to/output \'[list of tools]\'
+  You can list multiple tools as a string at the end.
+  Available tools:
+  pdftotext             pdftohtml
+  pdfbox                pdf2xml
+  parscit               lapdftext
+  pdfminer              pdfXtk
+  pdfextract            PDFExtract
+  grobid                icecite
+  Not all of these tools may work.  See /docs for more information."
+  exit 0
+fi
 
 
-# my orig call: python3 ./bin/extractor.py pdftotext --tools_dir "./tools/data" --output_dir "./output/test-data" --pdf_dir "../benchmark/pdf/test-data/"
+python3 ./evaluation/bin/extractor.py $3 --tools_dir "./evaluation/tools/data" --pdf_dir "$1" --output_dir "$2" --prefix_filter "" --suffix_filter ".pdf" --yy_filter "" --mm_filter "" --num_threads "-1" --timeout "300" --force "False" --mute "False" 
 
-# TODO: make normal call, allow it to run more than one! add possibility of other flags, make help message list of tools
-
-# for consideration: The variable $# reports the number of command line arguments passed to the shell script program.
-
-python3 ./evaluation/bin/extractor.py --tools_dir "/projects/pdf_eval/code/pdf-text-extraction-benchmark/evaluation/tools/" --pdf_dir $1 --output_dir $2 $3
-
-# to possibly add: --suffix_filter ".pdf" --num_threads "-1" [quotes needed???] --timeout "300" 
-
-# empty ones (don't know if i need to add): --prefix_filter, --yy_filter, --mm_filter, --force --mute
 
 # orig call by Bast and Korzen:
 #$(PYTHON) $(EXTRACTOR_SRC) \
